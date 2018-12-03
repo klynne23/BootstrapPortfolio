@@ -20,11 +20,16 @@ main {
     margin: 0px auto;
 }
 
+.navbar {
+    padding: inherit;
+}
+
 li.nav {
     text-align: center;
     font-size: 35px;
     color: white;
     background-color: #4aaaa5; 
+    padding: 10px 20px;
 }
 
 p {
@@ -45,7 +50,8 @@ section#about {
 
 .bg {
     background-color: white;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 
 
@@ -112,11 +118,15 @@ section#portfolio h1 {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 10px;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 15px 20px;
+    padding-top: 5%;
     background-color: #4aaaa5;
     width: 300px;
-    left: 0px;
     text-align: center;
+}
+
+.text p {
+    
 }
 
  /* CONTACT */
@@ -143,7 +153,7 @@ section#contact {
 form {
     margin: 0 auto;
     width: 900px;
-    padding: 1em;
+    padding-bottom: 2%;
 }
 
 label {
